@@ -1,5 +1,5 @@
 #!/bin/bash
-# kind create cluster --config=cluster.yml
+kind create cluster --config=cluster.yml
 
 kubectl apply -f ./security/rbac.yml
 
